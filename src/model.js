@@ -1,4 +1,4 @@
-import image from "./assets/image.png";
+import image from "./assets/javascript.jpg";
 import {
   ImageBlock,
   TitleBlock,
@@ -10,21 +10,19 @@ export const model = [
   new TitleBlock("Конструктор сайтов на чистом Javascript", {
     tag: "h2",
     styles: {
-      background: "linear-gradient(to right, #ff0099, #493240)",
-      color: "#green",
       "text-align": "center",
-      padding: "1.5rem"
+      padding: "1rem"
     }
   }),
 
   new ImageBlock(image, {
     styles: {
-      padding: "2rem 0",
+      padding: "1rem 0",
       display: "flex",
       "justify-content": "center"
     },
     imageStyles: {
-      width: "500px",
+      width: "50%",
       height: "auto"
     },
     alt: "Это картинка"
@@ -33,8 +31,10 @@ export const model = [
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, tenetur.",
     {
       styles: {
+        "font-weight": "Bold",
         color: "gold",
-        "text-transform": "uppercase"
+        "text-transform": "uppercase",
+        "text-align": "center"
       }
     }
   ),
@@ -46,9 +46,7 @@ export const model = [
     ],
     {
       styles: {
-        color: "pink",
-        border: "1px solid pink",
-        margin: "1rem"
+        "text-align": "center"
       }
     }
   )
